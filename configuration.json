@@ -3,16 +3,100 @@
       {
          "idx": 1,
          "icon": "Tv",
-         "title": "AI/Tools",
+         "title": "Streaming",
+         "description": "lorem23 ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+         "link": "/collections/ai-tools"
+      },
+      {
+         "idx": 2,
+         "icon": "Bot",
+         "title": "AI/Automation",
          "description": "Explore the world of AI with curated resources and tools.",
          "link": "/collections/ai-tools"
       },
-        {
-         "idx": 2,
-         "icon": "Bot",
-         "title": "AI/Tools",
-         "description": "Explore the world of AI with curated resources and tools.",
-         "link": "/collections/ai-tools"
+      {
+         "idx": 3,
+         "icon": "Book",
+         "title": "Education",
+         "description": "Access educational materials and learning platforms.",
+         "link": "/collections/education"
+      },
+      {
+         "idx": 4,
+         "icon": "Gamepad",
+         "title": "Gaming",
+         "description": "Discover games and gaming communities.",
+         "link": "/collections/gaming"
+      },
+      {
+         "idx": 5,
+         "icon": "Music",
+         "title": "Music",
+         "description": "Find music streaming services and resources.",
+         "link": "/collections/music"
+      },
+      {
+         "idx": 6,
+         "icon": "Camera",
+         "title": "Photography",
+         "description": "Explore photography tools and galleries.",
+         "link": "/collections/photography"
+      },
+      {
+         "idx": 7,
+         "icon": "Palette",
+         "title": "Art & Design",
+         "description": "Browse art and design inspiration and tools.",
+         "link": "/collections/art-design"
+      },
+      {
+         "idx": 8,
+         "icon": "Code",
+         "title": "Programming",
+         "description": "Find programming resources and developer tools.",
+         "link": "/collections/programming"
+      },
+      {
+         "idx": 9,
+         "icon": "ShoppingCart",
+         "title": "Shopping",
+         "description": "Explore online shopping platforms and deals.",
+         "link": "/collections/shopping"
+      },
+      {
+         "idx": 10,
+         "icon": "Globe",
+         "title": "Travel",
+         "description": "Discover travel guides and booking services.",
+         "link": "/collections/travel"
+      },
+      {
+         "idx": 11,
+         "icon": "Heart",
+         "title": "Health & Fitness",
+         "description": "Access health and fitness resources.",
+         "link": "/collections/health-fitness"
+      },
+      {
+         "idx": 12,
+         "icon": "Leaf",
+         "title": "Environment",
+         "description": "Learn about environmental initiatives and resources.",
+         "link": "/collections/environment"
+      },
+      {
+         "idx": 13,
+         "icon": "Briefcase",
+         "title": "Business",
+         "description": "Find business tools and entrepreneurship resources.",
+         "link": "/collections/business"
+      },
+      {
+         "idx": 14,
+         "icon": "Film",
+         "title": "Movies",
+         "description": "Browse movie streaming and review platforms.",
+         "link": "/collections/movies"
       }
    ]
 }
