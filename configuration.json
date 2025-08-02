@@ -1,0 +1,18 @@
+{
+   "Collections": [
+      {
+         "idx": 1,
+         "icon": "Tv",
+         "title": "AI/Tools",
+         "description": "Explore the world of AI with curated resources and tools.",
+         "link": "/collections/ai-tools"
+      },
+        {
+         "idx": 2,
+         "icon": "Bot",
+         "title": "AI/Tools",
+         "description": "Explore the world of AI with curated resources and tools.",
+         "link": "/collections/ai-tools"
+      }
+   ]
+}

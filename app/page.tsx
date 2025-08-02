@@ -1,10 +1,16 @@
-"use client";
-import FlipLink from "@/components/ui/FlipLink";
+import Collections from "@/components/Collections";
+import DisplayText from "@/components/DisplayText";
+
 export default function Home() {
 	return (
 		<>
-			<main className='flex justify-between mx-40 h-screen p-4 border-x '>
-				<FlipLink href='https://x.com/guri_who'>JISHO</FlipLink>
+			<main className='flex flex-col gap-30  mx-40 h-screen p-4 '>
+				<div className='mt-8'>
+					<DisplayText />
+				</div>
+				<div className='h-screen '>
+					<Collections />
+				</div>
 			</main>
 		</>
 	);

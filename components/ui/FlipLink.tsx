@@ -16,7 +16,7 @@ const FlipLink: React.FC<FlipLinkProps> = ({ children, href }) => {
 			whileHover='hovered'
 			target='_blank'
 			href={href}
-			className='absolute h-13 overflow-hidden whitespace-nowrap text-3xl font-semibold uppercase dark:text-white/90 sm:text-7xl md:text-6xl '
+			className='absolute h-13 overflow-hidden whitespace-nowrap text-2xl font-nacelle uppercase dark:text-white/90 sm:text-4xl md:text-6xl '
 			style={{
 				lineHeight: 0.825, // Adjust line height for better spacing
 			}}
