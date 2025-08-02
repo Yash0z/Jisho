@@ -5,98 +5,235 @@
          "icon": "Tv",
          "title": "Streaming",
          "description": "lorem23 ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-         "link": "/collections/ai-tools"
+         "link": "/collectables/Streaming",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Streaming",
+            "link": "/collectables/streaming"
+            }
+         ]
+         }
       },
       {
          "idx": 2,
          "icon": "Bot",
          "title": "AI/Automation",
          "description": "Explore the world of AI with curated resources and tools.",
-         "link": "/collections/ai-tools"
+         "link": "/collectables/AI/Automation",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "AI",
+            "link": "/collectables/AI"
+            },
+            {
+            "name": "Automation",
+            "link": "/collectables/Automation"
+            }
+         ]
+         }
       },
       {
          "idx": 3,
          "icon": "Book",
          "title": "Education",
          "description": "Access educational materials and learning platforms.",
-         "link": "/collections/education"
+         "link": "/collectables/Education",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Education",
+            "link": "/collectables/Education"
+            }
+         ]
+         }
       },
       {
          "idx": 4,
          "icon": "Gamepad",
          "title": "Gaming",
          "description": "Discover games and gaming communities.",
-         "link": "/collections/gaming"
+         "link": "/collectables/Gaming",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Gaming",
+            "link": "/collectables/Gaming"
+            }
+         ]
+         }
       },
       {
          "idx": 5,
          "icon": "Music",
          "title": "Music",
          "description": "Find music streaming services and resources.",
-         "link": "/collections/music"
+         "link": "/collectables/Music",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Music",
+            "link": "/collectables/Music"
+            }
+         ]
+         }
       },
       {
          "idx": 6,
          "icon": "Camera",
          "title": "Photography",
          "description": "Explore photography tools and galleries.",
-         "link": "/collections/photography"
+         "link": "/collectables/Photography",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Photography",
+            "link": "/collectables/Photography"
+            }
+         ]
+         }
       },
       {
          "idx": 7,
          "icon": "Palette",
          "title": "Art & Design",
          "description": "Browse art and design inspiration and tools.",
-         "link": "/collections/art-design"
+         "link": "/collectables/Art-Design",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Art",
+            "link": "/collectables/Art"
+            },
+            {
+            "name": "Design",
+            "link": "/collectables/Design"
+            }
+         ]
+         }
       },
       {
          "idx": 8,
          "icon": "Code",
          "title": "Programming",
          "description": "Find programming resources and developer tools.",
-         "link": "/collections/programming"
+         "link": "/collectables/Programming",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Programming",
+            "link": "/collectables/Programming"
+            }
+         ]
+         }
       },
       {
          "idx": 9,
          "icon": "ShoppingCart",
          "title": "Shopping",
          "description": "Explore online shopping platforms and deals.",
-         "link": "/collections/shopping"
+         "link": "/collectables/Shopping",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Shopping",
+            "link": "/collectables/Shopping"
+            }
+         ]
+         }
       },
       {
          "idx": 10,
          "icon": "Globe",
          "title": "Travel",
          "description": "Discover travel guides and booking services.",
-         "link": "/collections/travel"
+         "link": "/collectables/Travel",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Travel",
+            "link": "/collectables/Travel"
+            }
+         ]
+         }
       },
       {
          "idx": 11,
          "icon": "Heart",
          "title": "Health & Fitness",
          "description": "Access health and fitness resources.",
-         "link": "/collections/health-fitness"
+         "link": "/collectables/Health-Fitness",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Health",
+            "link": "/collectables/Health"
+            },
+            {
+            "name": "Fitness",
+            "link": "/collectables/Fitness"
+            }
+         ]
+         }
       },
       {
          "idx": 12,
          "icon": "Leaf",
          "title": "Environment",
          "description": "Learn about environmental initiatives and resources.",
-         "link": "/collections/environment"
+         "link": "/collectables/Environment",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Climate",
+            "link": "/collectables/Climate"
+            },
+            {
+            "name": "Sustainability",
+            "link": "/collectables/Sustainability"
+            }
+         ]
+         }
       },
       {
          "idx": 13,
          "icon": "Briefcase",
          "title": "Business",
          "description": "Find business tools and entrepreneurship resources.",
-         "link": "/collections/business"
+         "link": "/collectables/Business",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Entrepreneurship",
+            "link": "/collectables/Entrepreneurship"
+            },
+            {
+            "name": "Finance",
+            "link": "/collectables/Finance"
+            }
+         ]
+         }
       },
       {
          "idx": 14,
          "icon": "Film",
          "title": "Movies",
          "description": "Browse movie streaming and review platforms.",
-         "link": "/collections/movies"
+         "link": "/collectables/Movies",
+         "referrals": {
+         "Group1": [
+            {
+            "name": "Streaming",
+            "link": "/collectables/Streaming"
+            },
+            {
+            "name": "Reviews",
+            "link": "/collectables/Reviews"
+            }
+         ]
+         }
       }
+   
    ]
 }

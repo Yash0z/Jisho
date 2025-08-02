@@ -27,7 +27,7 @@ export default function RootLayout({
 			<body
 				className={`${nacelle.variable} ${display.variable} antialiased relative w-screen h-screen font-nacelle no-scrollbar`}
 			>
-				<div className='w-full px-10 h-15 border-b flex items-center'>
+				<div className='sticky  top-0 z-50 bg-background w-full px-10 h-15 border-b flex items-center'>
 					<h1 className='font-display'>Jisho</h1>
 				</div>
 				{children}
