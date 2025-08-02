@@ -5,7 +5,7 @@
          "icon": "Tv",
          "title": "Streaming",
          "description": "lorem23 ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-         "link": "/collectables/Streaming",
+         "link": "/collectables/streaming",
          "referrals": {
          "Group1": [
             {
@@ -20,7 +20,7 @@
          "icon": "Bot",
          "title": "AI/Automation",
          "description": "Explore the world of AI with curated resources and tools.",
-         "link": "/collectables/AI/Automation",
+         "link": "/collectables/AI",
          "referrals": {
          "Group1": [
             {

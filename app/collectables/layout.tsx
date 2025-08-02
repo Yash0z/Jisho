@@ -6,11 +6,11 @@ export default function CollectablesLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<div className='grid grid-cols-[1fr_5fr]  h-screen'>
-			<div className=' fixed border p-5 overflow-y-scroll'> 
-
-         </div>
-			<div className=' fixed border p-5'> {children}</div>
+		<div className=''>
+			<div className='fixed left-0 h-screen w-64 border p-5 overflow-y-auto z-40'>
+				<LeftBar />
+			</div>
+			<div className='flex-1  p-5 ml-64'>{children}</div>
 		</div>
 	);
 }
