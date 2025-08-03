@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import Link from "next/link";
 
 const nacelle = localFont({
 	src: "../public/fonts/Nacelle-Regular.woff2",
@@ -28,7 +29,9 @@ export default function RootLayout({
 				className={`${nacelle.variable} ${display.variable} antialiased relative w-screen h-screen font-nacelle no-scrollbar`}
 			>
 				<div className='sticky  top-0 z-50 bg-background w-full px-10 h-15 border-b flex items-center'>
-					<h1 className='font-display'>Jisho</h1>
+					<Link href='/' className='font-display'>
+						Jisho
+					</Link>
 				</div>
 				{children}
 			</body>
