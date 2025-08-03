@@ -3,7 +3,7 @@ import Scomp from "@/components/streaming/scomp";
 export default function Streaming() {
 	return (
 		<>
-			<div className='border mb-10'>
+			<div className='mb-10'>
 				<h1 className='scroll-m-20  text-4xl  tracking-tight text-balance mb-2'>
 					Streaming
 				</h1>
@@ -12,7 +12,7 @@ export default function Streaming() {
 				</h2>
 			</div>
 
-			<div className='border'>
+			<div className=''>
 				<Scomp />
 			</div>
 		</>
