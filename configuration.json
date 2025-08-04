@@ -36,15 +36,29 @@
       },
       {
          "idx": 3,
-         "icon": "Book",
-         "title": "Education",
-         "description": "Access educational materials and learning platforms.",
-         "link": "/collectables/Education",
+         "icon": "Palette",
+         "title": "Design",
+         "description": "Access Design resources and inspiration from various fields.",
+         "link": "/collectables/design",
          "referrals": {
-         "Group1": [
+         "fonts": [
             {
-            "name": "Education",
-            "link": "/collectables/Education"
+            "name": "fontshare",
+            "link": "https://www.fontshare.com/"
+            },
+            {
+            "name": "open-foundry",
+            "link": "https://open-foundry.com/"
+            }
+         ],
+         "inspiration": [
+            {
+            "name": "Awwwards",
+            "link": "https://www.awwwards.com/"
+            },
+            {
+            "name": "Seesaw",
+            "link": "https://www.seesaw.website/"
             }
          ]
          }
