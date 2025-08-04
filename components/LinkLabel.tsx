@@ -17,14 +17,14 @@ export const LinkLabel = ({
 				<img
 					src={getFaviconUrl(url) || "/default-favicon.png"}
 					alt={`${sitename} favicon`}
-					width={24}
-					height={24}
+					width={20}
+					height={20}
 					className='flex-shrink-0'
 					onError={(e) => {
 						e.currentTarget.style.display = "none";
 					}}
 				/>
-				<span className='text-sm truncate'>{sitename}</span>
+            <span className='text-sm truncate'>{sitename.charAt(0).toUpperCase() + sitename.slice(1)}</span>
 			</div>
 			<div className='w-[20%]  h-full flex items-center justify-center'>
 				<MoveUpRight size={20} />

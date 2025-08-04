@@ -2,7 +2,7 @@
 import config from "@/configuration.json";
 import { LinkLabel } from "../LinkLabel";
 
-export default function Dcomp() {
+export default function Dcomp({ collectionId }: { collectionId: number }) {
 	const designCollection = config.Collections[2];
 	const fonts = designCollection?.referrals?.fonts;
 
@@ -14,10 +14,12 @@ export default function Dcomp() {
 	}
 
 	return (
-		<div className='grid grid-cols-4 w-[82%] '>
-			{fonts.map((site, index) => (
-				<LinkLabel key={index} sitename={site.name} url={site.link} />
-			))}
-		</div>
+		<>
+			<div className='grid grid-cols-4 w-[82%] '>
+				{fonts.map((site, index) => (
+					<LinkLabel key={index} sitename={site.name} url={site.link} />
+				))}
+			</div>
+		</>
 	);
 }

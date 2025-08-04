@@ -12,7 +12,7 @@ export default function Streaming() {
 				</h2>
 			</div>
 			<div className=''>
-				<Dcomp />
+				<Dcomp collectionId={2}/>
 			</div>
 		</>
 	);
