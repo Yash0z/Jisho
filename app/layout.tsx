@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import Link from "next/link";
+import { State } from "@/components/State";
 
 const nacelle = localFont({
 	src: "../public/fonts/Nacelle-Regular.woff2",
@@ -28,7 +29,10 @@ export default function RootLayout({
 			<body
 				className={`${nacelle.variable} ${display.variable} antialiased relative w-screen h-screen font-nacelle no-scrollbar`}
 			>
-				<div className='sticky  top-0 z-50 bg-background w-full px-10 h-15 border-b flex items-center'>
+				<div className='border-b p-1'>
+					<State />
+				</div>
+				<div className='sticky top-0 z-50 bg-background w-full px-10 h-12 border-b flex items-center'>
 					<Link href='/' className='font-display'>
 						Jisho
 					</Link>
