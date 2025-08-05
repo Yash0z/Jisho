@@ -6,4 +6,3 @@ export const DesignMD = {
 	category_1: config.Collections[0].all_crates.fonts,
 	category_2: config.Collections[0].all_crates.inspiration,
 };
-

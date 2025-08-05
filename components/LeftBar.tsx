@@ -1,36 +1,38 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import config from "@/configuration.json";
 
 export default function LeftBar() {
-	return (
-		<div className='relative px-10 py-6 text-[16px] flex flex-col'>
-			<Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Streaming
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Design
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				AI/Automation
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Streaming
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Design
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				AI/Automation
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Streaming
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				Design
-			</Link>
-         <Link href='/streaming' className='border-l-2 pl-2 py-2 hover:border-white/70'>
-				AI/Automation
-			</Link>
+	const pathname = usePathname();
+	const designCollection = config.Collections.find(
+		(collection) => collection.idx === 1
+	);
+	const crates = designCollection
+		? Object.keys(designCollection.all_crates)
+		: [];
 
-		</div>
+	return (
+		<>
+			<div className='flex flex-col gap-2 text-[16px] text-foreground/60'>
+				<Link
+					href={designCollection?.link || "/collectables/design"}
+					className='text-xs font-display text-foreground uppercase'
+				>
+					{designCollection?.title}
+				</Link>
+				<div>
+					{crates.map((crate, index) => (
+						<Link
+							key={index}
+							href={`${designCollection?.link}#${crate}`}
+							className='block text-md pl-3 hover:text-white hover:border-white border-l-2'
+						>
+							{crate.charAt(0).toUpperCase() + crate.slice(1)}
+						</Link>
+					))}
+				</div>
+			</div>
+		</>
 	);
 }

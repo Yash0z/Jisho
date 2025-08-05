@@ -5,7 +5,7 @@
          "icon": "Palette",
          "title": "Design",
          "description": "Access Design resources and inspiration from various fields.",
-         "link": "/collectables/design",
+         "link": "/resources/design",
          "all_crates": {
             "fonts": "fonts",
             "inspiration": "inspiration"
