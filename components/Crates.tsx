@@ -23,12 +23,14 @@ export default function Crates({
 	const crates = Crates?.[categoryName as CratesKeys];
 
 	if (!crates) {
-		return <div>No crates found for category: {categoryName}</div>;
+		return ;
 	}
 	const CName = categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
 	return (
 		<div className='mb-5'>
-			<h1 className='text-foreground/60 font-bold mb-4'>{CName}</h1>
+			<h1 id={categoryName} className='text-foreground/60 font-bold mb-4'>
+				{CName}
+			</h1>
 			<div className='grid grid-cols-4 w-[82%] '>
 				{crates.map((site, index) => (
 					<LinkLabel key={index} sitename={site.name} url={site.link} />
