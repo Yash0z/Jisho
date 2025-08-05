@@ -1,11 +1,4 @@
-const MetaData = {
-	collectionId: config.Collections[0].idx,
-	category_1: config.Collections[0].all_crates.fonts,
-	category_2: config.Collections[0].all_crates.inspiration,
-};
-
-
-import config from "@/configuration.json";
+import { DesignMD } from "@/app/options";
 import Crates from "@/components/Crates";
 export default function Design() {
 	return (
@@ -20,12 +13,12 @@ export default function Design() {
 			</div>
 			<div className=''>
 				<Crates
-					collectionId={MetaData.collectionId}
-					categoryName={MetaData.category_1}
+					collectionId={DesignMD.collectionId}
+					categoryName={DesignMD.category_1}
 				/>
 				<Crates
-					collectionId={MetaData.collectionId}
-					categoryName={MetaData.category_2}
+					collectionId={DesignMD.collectionId}
+					categoryName={DesignMD.category_2}
 				/>
 			</div>
 		</>
