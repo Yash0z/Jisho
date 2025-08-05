@@ -1,6 +1,13 @@
-import Dcomp from "@/components/design/dcomp";
+const MetaData = {
+	collectionId: config.Collections[0].idx,
+	category_1: config.Collections[0].all_crates.fonts,
+	category_2: config.Collections[0].all_crates.inspiration,
+};
 
-export default function Streaming() {
+
+import config from "@/configuration.json";
+import Crates from "@/components/Crates";
+export default function Design() {
 	return (
 		<>
 			<div className='mb-10'>
@@ -12,7 +19,14 @@ export default function Streaming() {
 				</h2>
 			</div>
 			<div className=''>
-				<Dcomp collectionId={2}/>
+				<Crates
+					collectionId={MetaData.collectionId}
+					categoryName={MetaData.category_1}
+				/>
+				<Crates
+					collectionId={MetaData.collectionId}
+					categoryName={MetaData.category_2}
+				/>
 			</div>
 		</>
 	);

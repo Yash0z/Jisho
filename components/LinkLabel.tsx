@@ -1,5 +1,6 @@
 import { getFaviconUrl } from "@/utils/getFavicon";
 import { MoveUpRight } from "lucide-react";
+import Link from "next/link";
 
 export const LinkLabel = ({
 	sitename,
@@ -9,7 +10,10 @@ export const LinkLabel = ({
 	url: string;
 }) => {
 	return (
-		<div
+		<Link
+			href={url}
+			target='_blank'
+			rel='noopener noreferrer'
 			// key={index}
 			className=' min-h-8 p-2 flex items-center w-full  cursor-pointer border hover:bg-white hover:text-black'
 		>
@@ -24,11 +28,13 @@ export const LinkLabel = ({
 						e.currentTarget.style.display = "none";
 					}}
 				/>
-            <span className='text-sm truncate'>{sitename.charAt(0).toUpperCase() + sitename.slice(1)}</span>
+				<span className='text-sm truncate'>
+					{sitename.charAt(0).toUpperCase() + sitename.slice(1)}
+				</span>
 			</div>
 			<div className='w-[20%]  h-full flex items-center justify-center'>
 				<MoveUpRight size={20} />
 			</div>
-		</div>
+		</Link>
 	);
 };
