@@ -2,13 +2,84 @@
 	"Collections": [
 		{
 			"idx": 1,
+			"icon": "Bot",
+			"title": "AI / Automation",
+			"description": "Explore AI tools and automation resources to enhance your projects.",
+			"link": "/resources/AI",
+			"all_crates": {
+				"crate-1": "AI Tools",
+				"crate-2": "Rag"
+			},
+			"crates": {
+				"AI Tools": [
+					{
+						"name": "ChatGPT",
+						"link": "https://chat.openai.com/"
+					},
+					{
+						"name": "Claude",
+						"link": "https://claude.ai/"
+					},
+					{
+						"name": "Deepseek",
+						"link": "https://deepseek.ai/"
+					},
+					{
+						"name": "Mistral",
+						"link": "https://mistral.ai/"
+					},
+					{
+						"name": "T3 Chat",
+						"link": "https://t3.chat/"
+					},
+					{
+						"name": "Ollama",
+						"link": "https://ollama.com/"
+					},
+					{
+						"name": "V0",
+						"link": "https://v0.dev/"
+					},
+					{
+						"name": "ElevenLabs",
+						"link": "https://elevenlabs.io/app/home"
+					},
+					{
+						"name": "ElevenLabs",
+						"link": "https://elevenlabs.io/app/home"
+					}
+				],
+				"Rag": [
+					{
+						"name": "LangChain",
+						"link": "https://js.langchain.com/docs/get_started/introduction"
+					},
+					{
+						"name": "ChromaDB",
+						"link": "https://www.trychroma.com/"
+					},
+					{
+						"name": "Pinecone",
+						"link": "https://pinecone.io/"
+					},
+					{
+						"name": "n8n",
+						"link": "https://n8n.io/"
+					}
+				]
+			}
+		},
+		{
+			"idx": 2,
 			"icon": "Palette",
 			"title": "Design",
 			"description": "Access Design resources and inspiration from various fields.",
 			"link": "/resources/design",
 			"all_crates": {
-				"crate-1": "fonts",
-				"crate-2": "inspiration"
+				"crate-1": "tools",
+				"crate-2": "inspiration",
+				"crate-3": "fonts",
+				"crate-4": "colors"
 			},
 			"crates": {
 				"fonts": [
@@ -19,6 +90,10 @@
 					{
 						"name": "open-foundry",
 						"link": "https://open-foundry.com/"
+					},
+					{
+						"name": "Adobe Fonts",
+						"link": "https://fonts.adobe.com/"
 					}
 				],
 				"inspiration": [
@@ -29,13 +104,69 @@
 					{
 						"name": "Seesaw",
 						"link": "https://www.seesaw.website/"
+					},
+					{
+						"name": "lapa.ninja",
+						"link": "https://www.lapa.ninja"
+					},
+					{
+						"name": "One Page Love",
+						"link": "https://onepagelove.com/"
+					},
+					{
+						"name": "Dribbble",
+						"link": "https://dribbble.com/"
+					}
+				],
+				"tools": [
+					{
+						"name": "Canva",
+						"link": "https://www.canva.com/"
+					},
+					{
+						"name": "Figma",
+						"link": "https://www.figma.com/"
+					},
+					{
+						"name": "Adobe XD",
+						"link": "https://www.adobe.com/products/xd.html"
+					},
+					{
+						"name": "Sketch",
+						"link": "https://www.sketch.com/"
+					},
+					{
+						"name": "Framer",
+						"link": "https://www.framer.com/"
+					},
+					{
+						"name": "Magicpath",
+						"link": "https://www.magicpath.ai/"
+					},
+					{
+						"name": "Easing.co",
+						"link": "https://www.easings.co/"
+					}
+				],
+				"colors": [
+					{
+						"name": "Realtime Colors",
+						"link": "https://www.realtimecolors.com/"
+					},
+					{
+						"name": "Happy Hues",
+						"link": "https://www.happyhues.co/"
+					},
+					{
+						"name": "Tweaken",
+						"link": "https://tweakcn.com/"
 					}
 				]
 			}
 		},
 
 		{
-			"idx": 2,
+			"idx": 3,
 			"icon": "PanelsTopLeft",
 			"title": "Web",
 			"description": "Useful component , animation libraries and resources for web development.",
@@ -43,7 +174,8 @@
 			"all_crates": {
 				"crate-1": "Tools",
 				"crate-2": "Databases",
-				"crate-3": "components"
+				"crate-3": "components",
+				"crate-4": "Hosting"
 			},
 			"crates": {
 				"Tools": [
@@ -67,11 +199,11 @@
 						"name": "Drizzle",
 						"link": "https://orm.drizzle.team/docs/get-started"
 					},
-               {
+					{
 						"name": "Tanstack",
 						"link": "https://tanstack.com/"
 					},
-               {
+					{
 						"name": "Better-auth",
 						"link": "https://www.better-auth.com/"
 					}
@@ -94,12 +226,26 @@
 						"link": "https://www.mongodb.com/"
 					}
 				],
+				"Hosting": [
+					{
+						"name": "Vercel",
+						"link": "https://vercel.com/dashboard"
+					},
+					{
+						"name": "Netlify",
+						"link": "https://www.netlify.com/"
+					},
+					{
+						"name": "Coolify",
+						"link": "https://coolify.io/"
+					}
+				],
 				"components": [
 					{
 						"name": "shadcn/ui",
 						"link": "https://ui.shadcn.com/"
 					},
-               {
+					{
 						"name": "lucide.dev",
 						"link": "https://lucide.dev/icons/"
 					},
@@ -131,7 +277,6 @@
 						"name": "React Bits",
 						"link": "https://reactbits.dev/text-animations/text-type"
 					}
-					
 				]
 			}
 		}

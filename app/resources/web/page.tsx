@@ -14,16 +14,20 @@ export default function Web() {
 			</div>
 			<div className=''>
 				<Crates
-					collectionId={config.Collections[1].idx}
-					categoryName={config.Collections[1].all_crates["crate-1"]}
+					collectionId={config.Collections[2].idx}
+					categoryName={config.Collections[2].all_crates["crate-1"]}
 				/>
 				<Crates
-					collectionId={config.Collections[1].idx}
-					categoryName={config.Collections[1].all_crates["crate-2"]}
+					collectionId={config.Collections[2].idx}
+					categoryName={config.Collections[2].all_crates["crate-2"]}
 				/>
 				<Crates
-					collectionId={config.Collections[1].idx}
-					categoryName={config.Collections[1].all_crates["crate-3"]}
+					collectionId={config.Collections[2].idx}
+					categoryName={config.Collections[2].all_crates["crate-3"]}
+				/>
+				<Crates
+					collectionId={config.Collections[2].idx}
+					categoryName={config.Collections[2].all_crates["crate-4"]}
 				/>
 			</div>
 		</>

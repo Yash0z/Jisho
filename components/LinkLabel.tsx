@@ -17,7 +17,7 @@ export const LinkLabel = ({
 			// key={index}
 			className=' min-h-8 p-2 flex items-center w-full  cursor-pointer border hover:bg-white hover:text-black'
 		>
-			<div className='flex gap-3 item-center  p-1 w-[80%]'>
+			<div className='flex gap-3 items-center  p-1 w-[80%]'>
 				<img
 					src={getFaviconUrl(url) || "/default-favicon.png"}
 					alt={`${sitename} favicon`}
@@ -33,7 +33,7 @@ export const LinkLabel = ({
 				</span>
 			</div>
 			<div className='w-[20%]  h-full flex items-center justify-center'>
-				<MoveUpRight size={20} />
+				<MoveUpRight size={15} />
 			</div>
 		</Link>
 	);

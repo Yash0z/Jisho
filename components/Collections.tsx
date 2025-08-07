@@ -1,15 +1,13 @@
 import config from "@/configuration.json";
 import { JSX } from "react";
 import Card from "./Card";
-import {
-	Palette,
-	PanelsTopLeft
-} from "lucide-react";
+import { Palette, Bot, PanelsTopLeft } from "lucide-react";
 
 // Map icon names to Lucide components
 const icons: Record<string, JSX.Element> = {
 	Palette: <Palette size={30} />,
 	PanelsTopLeft: <PanelsTopLeft size={30} />,
+	Bot: <Bot size={30} />,
 };
 
 export default function Collections() {
