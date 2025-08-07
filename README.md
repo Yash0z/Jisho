@@ -3,7 +3,7 @@
 A personal Fmhy — a curated collection of useful, reliable links, tools, and resources I frequently use or recommend.
 
 
-### A little Preview
+### A Little Sneak
 
 ![App Screenshot](/public/image.png)
 
@@ -14,9 +14,9 @@ Well, everything is parsed from a single configuration file located in the root 
 
 To add your own collection:
 
-Create a folder inside the /app/ directory with a name of your choice.
-
-Then, Link that folder in the configuration file.
+      1. Create a folder inside the /app/  directory with 
+         a name of your choice.
+      2. Then, Link that folder in the configuration file.
 
 And that’s it — you’re good to go.
 ### Thank You
