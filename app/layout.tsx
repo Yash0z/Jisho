@@ -29,13 +29,15 @@ export default function RootLayout({
 			<body
 				className={`${nacelle.variable} ${display.variable} antialiased relative w-screen h-screen font-nacelle no-scrollbar`}
 			>
-				<div className='border-b p-1'>
-					<State />
-				</div>
-				<div className='sticky top-0 z-50 bg-background w-full px-10 h-12 border-b flex items-center'>
-					<Link href='/' className='font-display'>
-						Jisho
-					</Link>
+				<div className='sticky top-0 w-full z-50 '>
+					<div className='top-0 border-b p-1'>
+						<State />
+					</div>
+					<div className='px-10 h-12 border-b flex items-center'>
+						<Link href='/' className='font-display'>
+							Jisho
+						</Link>
+					</div>
 				</div>
 				{children}
 			</body>
