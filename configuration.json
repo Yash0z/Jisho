@@ -1,38 +1,139 @@
 {
-   "Collections": [
-      {
-         "idx": 1,
-         "icon": "Palette",
-         "title": "Design",
-         "description": "Access Design resources and inspiration from various fields.",
-         "link": "/resources/design",
-         "all_crates": {
-            "fonts": "fonts",
-            "inspiration": "inspiration"
-         },
-         "crates": {
-         "fonts": [
-            {
-            "name": "fontshare",
-            "link": "https://www.fontshare.com/"
-            },
-            {
-            "name": "open-foundry",
-            "link": "https://open-foundry.com/"
-            }
-         ],
-         "inspiration": [
-            {
-            "name": "Awwwards",
-            "link": "https://www.awwwards.com/"
-            },
-            {
-            "name": "Seesaw",
-            "link": "https://www.seesaw.website/"
-            }
-         ]
-         }
-      }
-   
-   ]
+	"Collections": [
+		{
+			"idx": 1,
+			"icon": "Palette",
+			"title": "Design",
+			"description": "Access Design resources and inspiration from various fields.",
+			"link": "/resources/design",
+			"all_crates": {
+				"crate-1": "fonts",
+				"crate-2": "inspiration"
+			},
+			"crates": {
+				"fonts": [
+					{
+						"name": "fontshare",
+						"link": "https://www.fontshare.com/"
+					},
+					{
+						"name": "open-foundry",
+						"link": "https://open-foundry.com/"
+					}
+				],
+				"inspiration": [
+					{
+						"name": "Awwwards",
+						"link": "https://www.awwwards.com/"
+					},
+					{
+						"name": "Seesaw",
+						"link": "https://www.seesaw.website/"
+					}
+				]
+			}
+		},
+
+		{
+			"idx": 2,
+			"icon": "PanelsTopLeft",
+			"title": "Web",
+			"description": "Useful component , animation libraries and resources for web development.",
+			"link": "/resources/web",
+			"all_crates": {
+				"crate-1": "Tools",
+				"crate-2": "Databases",
+				"crate-3": "components"
+			},
+			"crates": {
+				"Tools": [
+					{
+						"name": "Next.js",
+						"link": "https://nextjs.org/docs/app/getting-started/installation"
+					},
+					{
+						"name": "Tailwind CSS",
+						"link": "https://tailwindcss.com/docs/aspect-ratio"
+					},
+					{
+						"name": "Express.js",
+						"link": "https://expressjs.com/"
+					},
+					{
+						"name": "Hono",
+						"link": "https://hono.dev/"
+					},
+					{
+						"name": "Drizzle",
+						"link": "https://orm.drizzle.team/docs/get-started"
+					},
+               {
+						"name": "Tanstack",
+						"link": "https://tanstack.com/"
+					},
+               {
+						"name": "Better-auth",
+						"link": "https://www.better-auth.com/"
+					}
+				],
+				"Databases": [
+					{
+						"name": "Convex",
+						"link": "https://dashboard.convex.dev"
+					},
+					{
+						"name": "NeonDB",
+						"link": "https://console.neon.tech/app/projects"
+					},
+					{
+						"name": "Supabase",
+						"link": "https://supabase.com/"
+					},
+					{
+						"name": "MongoDB",
+						"link": "https://www.mongodb.com/"
+					}
+				],
+				"components": [
+					{
+						"name": "shadcn/ui",
+						"link": "https://ui.shadcn.com/"
+					},
+               {
+						"name": "lucide.dev",
+						"link": "https://lucide.dev/icons/"
+					},
+					{
+						"name": "magic-ui",
+						"link": "https://magicui.design/docs/components/marquee"
+					},
+					{
+						"name": "motion-primitives",
+						"link": "https://motion-primitives.com/docs/installation"
+					},
+					{
+						"name": "origin/ui",
+						"link": "https://originui.com/"
+					},
+					{
+						"name": "Kibo UI",
+						"link": "https://www.kibo-ui.com/components/spinner"
+					},
+					{
+						"name": "Skipper UI",
+						"link": "https://skiper-ui.com/docs/components/theme-toggle-animations"
+					},
+					{
+						"name": "ShsFui",
+						"link": "https://www.shsfui.com/primitives/cards"
+					},
+					{
+						"name": "React Bits",
+						"link": "https://reactbits.dev/text-animations/text-type"
+					}
+					
+				]
+			}
+		}
+	]
 }

@@ -1,5 +1,6 @@
-import { DesignMD } from "@/app/options";
+import config from "@/configuration.json";
 import Crates from "@/components/Crates";
+
 export default function Design() {
 	return (
 		<>
@@ -13,12 +14,12 @@ export default function Design() {
 			</div>
 			<div className=''>
 				<Crates
-					collectionId={DesignMD.collectionId}
-					categoryName={DesignMD.category_1}
+					collectionId={config.Collections[0].idx}
+					categoryName={config.Collections[0].all_crates["crate-1"]}
 				/>
 				<Crates
-					collectionId={DesignMD.collectionId}
-					categoryName={DesignMD.category_2}
+					collectionId={config.Collections[0].idx}
+					categoryName={config.Collections[0].all_crates["crate-2"]}
 				/>
 			</div>
 		</>

@@ -21,14 +21,14 @@ export const LinkLabel = ({
 				<img
 					src={getFaviconUrl(url) || "/default-favicon.png"}
 					alt={`${sitename} favicon`}
-					width={20}
-					height={20}
+					width={18}
+					height={18}
 					className='flex-shrink-0'
 					onError={(e) => {
 						e.currentTarget.style.display = "none";
 					}}
 				/>
-				<span className='text-sm truncate'>
+				<span className='text-xs truncate'>
 					{sitename.charAt(0).toUpperCase() + sitename.slice(1)}
 				</span>
 			</div>

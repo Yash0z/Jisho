@@ -4,7 +4,7 @@ import { LinkLabel } from "./LinkLabel";
 
 interface CollectionProps {
 	collectionId: number;
-	categoryName: string;
+	categoryName: string | undefined;
 }
 
 export default function Crates({
@@ -22,10 +22,10 @@ export default function Crates({
 		| undefined;
 	const crates = Crates?.[categoryName as CratesKeys];
 
-	if (!crates) {
-		return ;
+	if (!crates || !categoryName) {
+		return;
 	}
-	const CName = categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
+	const CName = categoryName?.charAt(0)?.toUpperCase() + categoryName?.slice(1);
 	return (
 		<div className='mb-5'>
 			<h1 id={categoryName} className='text-foreground/60 font-bold mb-4'>
